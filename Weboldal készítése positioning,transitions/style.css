@@ -1,19 +1,45 @@
 /*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .header-container {
-  /* 100% lesz a szélessége: */
-  background-size: 100%;
-  position: relative;
-  /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
-  height: 30vw;
+    /* 100% lesz a szélessége: */
+    background-size: 100%;
+    position: relative;
+    /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
+    height: 30vw;
+    background: url(./banner.jpg);
+    position:relative;
 }
 header {
-  width: 70%;
-  font-weight: 300;
+    width: 70%;
+    font-weight: 300;
+    
+}
+
+.company-intro
+{
+    color:white;
+    width: 50%;
+    background: rgba(40,70,66, 0.4);
+    text-shadow:2px 2px 3px rgba(0,0,0, 0.65);
+    position:absolute;
+    right:10vw;
+    top:50px;
+    padding:20px;
+}
+
+.main-container
+{
+    margin: 0 auto;
+    padding: 70px 450px;
+}
+
+.company-image
+{
+    float:right;
 }

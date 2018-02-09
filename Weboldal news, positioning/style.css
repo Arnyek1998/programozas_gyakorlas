@@ -1,0 +1,240 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false, empty-rules: false, qualified-headings: false, unique-headings: false*/
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(242, 237, 228);
+    font-family: timesnewroman;
+}
+
+header, main {
+    width: 900px;
+    margin: 40px auto 0 auto;
+    position: relative;
+}
+
+
+.logo
+{
+    display: inline-block;
+    width: 320px;
+    line-height: normal;
+}
+
+.logo > h1
+{
+    font-size: 40px;    
+    border-bottom: 1px solid black;
+    margin:0;
+    padding:0;
+}
+.logo > h2 
+{
+    font-size: 15px;
+    letter-spacing: 8px;
+    color:#b9b2a5;
+    font-style: italic;
+    padding:0;
+    margin:0;
+}
+
+/* jobbra igazitva */
+.menu-container
+{
+    float:right;
+    margin-top:20px;
+}
+
+.menu 
+{
+    list-style: none;
+}
+
+.menu-item 
+{
+    display: inline-block;
+    margin:0 20px;
+}
+
+.menu-item:nth-child(1) 
+{
+    border-bottom: 4px solid red;
+}
+
+.menu-item:nth-child(2) 
+{
+    border-bottom: 4px solid lightblue;
+}
+
+.menu-item:nth-child(3) 
+{
+    border-bottom: 4px solid plum;
+}
+
+.menu-item:nth-child(4) 
+{
+    border-bottom: 4px solid green
+}
+
+.menu-item:nth-child(5) 
+{
+    border-bottom: 4px solid yellow;
+}
+
+.menu-item a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover 
+{
+    border-bottom: 4px solid black;
+}
+
+.main-article 
+{
+    margin-top: 40px;
+    position: relative;
+}
+
+.main-article-content > h1 
+{
+    font-size: 35px;
+    padding: 15px 15px 5px 15px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.767);
+    margin:0;
+    width:400px;
+}
+
+.main-article-content > h2 
+{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    padding: 15px 15px 5px 15px;
+    font-size: 16px;
+    margin-top:0;
+    width:600px;
+    margin-bottom:0;
+}
+
+.main-article-content p 
+{
+    width: 700px;
+}
+
+.crop 
+{
+    height: 500px;
+    overflow: hidden;
+}
+
+.main-article-image
+{
+    width: 100%;
+}
+
+/* positioning!!!!! */
+.main-article
+{
+    
+}
+
+.main-article-content 
+{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+}
+
+.tag a
+{
+    color: white;
+    padding: 5px;
+}
+
+.tag-politics a 
+{
+    background-color: red;
+    text-decoration: none;
+}
+
+.tag-sports a 
+{
+    background-color: green;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tag-politics
+{
+    position: absolute;
+    top:-30px;
+    
+}
+
+.continue-to-article
+{  
+    color: white;
+    margin-top: -32px;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.continue-to-article a 
+{
+    color: white;
+    float:right;
+    text-decoration: none;
+    font-style: italic;
+    background-color: blue;
+    padding:5px;
+}
+
+.article-half-width 
+{
+    margin-top: 20px;
+}
+
+.half-width-crop
+{
+    height: 200px;
+    overflow: hidden;
+}
+
+.article-half-width .tag
+{
+    margin-top: -25px;
+}
+
+.article-half-width h1, .article-half-width h2 
+{
+    padding: 0;
+    margin: 0;
+}
+.article-half-width h2 
+{
+    font-size: 16px;
+    margin-top:20px;
+    
+}
+
+.article-half-width 
+{
+    width: 45%;
+    background-color: #e2e2e2;
+}
+
+/* jobra */
+.article-right 
+{
+    float:right;
+    padding:15px;
+}
+/* balra */
+.article-left 
+{
+    float:left;
+    padding:15px;
+}
